@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter4", "Chapter4", "{41
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter4", "Chapter4\Chapter4.csproj", "{D6373E86-42AB-4D97-A8A7-F2B8576E61BB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter5", "Chapter5", "{3BB164B4-D509-4455-BA1A-343ECE190EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter5", "Chapter5\Chapter5.csproj", "{4E240477-554C-4A71-936B-FB5DC4136CA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +81,16 @@ Global
 		{D6373E86-42AB-4D97-A8A7-F2B8576E61BB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{D6373E86-42AB-4D97-A8A7-F2B8576E61BB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{D6373E86-42AB-4D97-A8A7-F2B8576E61BB}.Release|x86.ActiveCfg = Release|Any CPU
+		{4E240477-554C-4A71-936B-FB5DC4136CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E240477-554C-4A71-936B-FB5DC4136CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E240477-554C-4A71-936B-FB5DC4136CA5}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4E240477-554C-4A71-936B-FB5DC4136CA5}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4E240477-554C-4A71-936B-FB5DC4136CA5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4E240477-554C-4A71-936B-FB5DC4136CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E240477-554C-4A71-936B-FB5DC4136CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E240477-554C-4A71-936B-FB5DC4136CA5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4E240477-554C-4A71-936B-FB5DC4136CA5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4E240477-554C-4A71-936B-FB5DC4136CA5}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,5 +99,6 @@ Global
 		{D99EEC6D-0821-42D1-98C5-2945B4F6ABD2} = {214B6B1E-51C6-43F5-8082-4F4A660E8B94}
 		{ADDA5B29-C91E-45D0-A5C6-FBF08B58B1FA} = {6E564CDF-B7BF-400B-AC00-E047D68A2EE9}
 		{D6373E86-42AB-4D97-A8A7-F2B8576E61BB} = {410D1F10-28CF-44E5-92EE-B7E37001CBBB}
+		{4E240477-554C-4A71-936B-FB5DC4136CA5} = {3BB164B4-D509-4455-BA1A-343ECE190EBC}
 	EndGlobalSection
 EndGlobal
