@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter8", "Chapter8\Chapte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge2", "Challenge2\Challenge2.csproj", "{681C30A7-E32C-4E06-8DCB-57763077FE9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer", "Timer\Timer.csproj", "{C90F9CA5-0356-4BC7-807D-251E7D398B12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,12 +161,23 @@ Global
 		{681C30A7-E32C-4E06-8DCB-57763077FE9C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{681C30A7-E32C-4E06-8DCB-57763077FE9C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{681C30A7-E32C-4E06-8DCB-57763077FE9C}.Release|x86.ActiveCfg = Release|Any CPU
+		{C90F9CA5-0356-4BC7-807D-251E7D398B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90F9CA5-0356-4BC7-807D-251E7D398B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90F9CA5-0356-4BC7-807D-251E7D398B12}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C90F9CA5-0356-4BC7-807D-251E7D398B12}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C90F9CA5-0356-4BC7-807D-251E7D398B12}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C90F9CA5-0356-4BC7-807D-251E7D398B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90F9CA5-0356-4BC7-807D-251E7D398B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90F9CA5-0356-4BC7-807D-251E7D398B12}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C90F9CA5-0356-4BC7-807D-251E7D398B12}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C90F9CA5-0356-4BC7-807D-251E7D398B12}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D99EEC6D-0821-42D1-98C5-2945B4F6ABD2} = {214B6B1E-51C6-43F5-8082-4F4A660E8B94}
+		{C90F9CA5-0356-4BC7-807D-251E7D398B12} = {214B6B1E-51C6-43F5-8082-4F4A660E8B94}
 		{ADDA5B29-C91E-45D0-A5C6-FBF08B58B1FA} = {6E564CDF-B7BF-400B-AC00-E047D68A2EE9}
 		{D6373E86-42AB-4D97-A8A7-F2B8576E61BB} = {410D1F10-28CF-44E5-92EE-B7E37001CBBB}
 		{4E240477-554C-4A71-936B-FB5DC4136CA5} = {3BB164B4-D509-4455-BA1A-343ECE190EBC}
