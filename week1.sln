@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge2", "Challenge2\Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer", "Timer\Timer.csproj", "{C90F9CA5-0356-4BC7-807D-251E7D398B12}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter10", "Chapter10", "{9A5A2C79-B07C-4A56-8BD8-2337AC428F5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter10", "Chapter10\Chapter10.csproj", "{28CDAD0A-6E65-4BCF-8BA6-AF5437783054}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,16 @@ Global
 		{C90F9CA5-0356-4BC7-807D-251E7D398B12}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{C90F9CA5-0356-4BC7-807D-251E7D398B12}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{C90F9CA5-0356-4BC7-807D-251E7D398B12}.Release|x86.ActiveCfg = Release|Any CPU
+		{28CDAD0A-6E65-4BCF-8BA6-AF5437783054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CDAD0A-6E65-4BCF-8BA6-AF5437783054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CDAD0A-6E65-4BCF-8BA6-AF5437783054}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{28CDAD0A-6E65-4BCF-8BA6-AF5437783054}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{28CDAD0A-6E65-4BCF-8BA6-AF5437783054}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{28CDAD0A-6E65-4BCF-8BA6-AF5437783054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CDAD0A-6E65-4BCF-8BA6-AF5437783054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28CDAD0A-6E65-4BCF-8BA6-AF5437783054}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{28CDAD0A-6E65-4BCF-8BA6-AF5437783054}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{28CDAD0A-6E65-4BCF-8BA6-AF5437783054}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -186,5 +200,6 @@ Global
 		{132794C9-2780-42EB-87F5-BF351C31D690} = {2E41733E-847E-47F6-9321-2DD94F7811E9}
 		{681C30A7-E32C-4E06-8DCB-57763077FE9C} = {2E41733E-847E-47F6-9321-2DD94F7811E9}
 		{76A0B9E3-CCA0-4940-A6EA-B83E5D3C40C7} = {961CE85F-FB26-42C8-813F-C3C98E209144}
+		{28CDAD0A-6E65-4BCF-8BA6-AF5437783054} = {9A5A2C79-B07C-4A56-8BD8-2337AC428F5D}
 	EndGlobalSection
 EndGlobal
