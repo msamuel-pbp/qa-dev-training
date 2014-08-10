@@ -8,22 +8,16 @@ namespace FunTimer
     {
         public class StopWatch
         {
-            private DateTime endTime;
-
-            public DateTime EndTime
-            {
-                get { return endTime; }
-                set { endTime = value; }
-            }
+            public DateTime EndTime { get; set; }
 
             public void TimeLeft()
             {
                 DateTime curTime = DateTime.Now;
 
                 Console.WriteLine("Current Time is {0}", curTime);
-                Console.WriteLine("End Time is {0}", endTime);
+                Console.WriteLine("End Time is {0}", EndTime);
 
-                int sec = (int) endTime.Subtract(curTime).TotalSeconds;
+                int sec = (int) EndTime.Subtract(curTime).TotalSeconds;
                 if (sec > 0)
                 {
                     int min = sec/60;
