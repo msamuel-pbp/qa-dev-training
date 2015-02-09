@@ -1,0 +1,25 @@
+﻿<Window x:Class="Chapter19.Exercise1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Exercise1" Height="300" Width="300">
+    <Window.Resources>
+        <Style x:Key="txtStyle" TargetType="TextBox">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Background" Value="Blue" />
+        </Style>
+        <Style x:Key="btnStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="Green" />
+            <Setter Property="Background" Value="LightGray" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Button x:Name="btnName" Content="Name" HorizontalAlignment="Left" Margin="32,36,0,0" VerticalAlignment="Top" Width="75" Style="{DynamicResource btnStyle}" Click="btnName_Click"/>
+        <Button x:Name="btnGender" Content="Gender" HorizontalAlignment="Left" Margin="32,73,0,0" VerticalAlignment="Top" Width="75" Style="{DynamicResource btnStyle}" Click="btnGender_Click"/>
+        <Button x:Name="btnLevel" Content="Level" HorizontalAlignment="Left" Margin="32,158,0,0" VerticalAlignment="Top" Width="75" Style="{DynamicResource btnStyle}" Click="btnLevel_Click"/>
+        <Button x:Name="btnClass" Content="Class" HorizontalAlignment="Left" Margin="32,112,0,0" VerticalAlignment="Top" Width="75" Style="{DynamicResource btnStyle}" Click="btnClass_Click"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" Margin="149,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Style="{DynamicResource txtStyle}" Text="Name"/>
+        <TextBox x:Name="txtGender" HorizontalAlignment="Left" Height="23" Margin="149,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Style="{DynamicResource txtStyle}" Text="Gender"/>
+        <TextBox x:Name="txtClass" HorizontalAlignment="Left" Height="23" Margin="149,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Style="{DynamicResource txtStyle}" Text="Class"/>
+        <TextBox x:Name="txtLevel" HorizontalAlignment="Left" Height="23" Margin="149,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Style="{DynamicResource txtStyle}" Text="Level"/>
+    </Grid>
+</Window>
