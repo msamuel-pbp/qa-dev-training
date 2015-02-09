@@ -36,6 +36,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -53,6 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Exercise1.xaml.cs">
+      <DependentUpon>Exercise1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Exercise3.xaml.cs">
+      <DependentUpon>Exercise3.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PhotoCatalog.cs" />
     <Compile Include="Rectangle.xaml.cs">
       <DependentUpon>Rectangle.xaml</DependentUpon>
@@ -60,6 +68,17 @@
     <Compile Include="President.xaml.cs">
       <DependentUpon>President.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Exercise2.xaml.cs">
+      <DependentUpon>Exercise2.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Exercise1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Exercise3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -77,6 +96,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="President.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Exercise2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
