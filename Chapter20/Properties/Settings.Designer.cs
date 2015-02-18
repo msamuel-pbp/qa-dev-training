@@ -22,27 +22,5 @@ namespace Chapter20.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\SampleDatabase.mdf;I" +
-            "ntegrated Security=True")]
-        public string SampleDatabaseConnectionString {
-            get {
-                return ((string)(this["SampleDatabaseConnectionString"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\Northwind.mdf;Integr" +
-            "ated Security=True;Connect Timeout=30")]
-        public string NorthwindConnectionString {
-            get {
-                return ((string)(this["NorthwindConnectionString"]));
-            }
-        }
     }
 }
