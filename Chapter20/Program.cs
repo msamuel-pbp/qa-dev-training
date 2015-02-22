@@ -9,11 +9,14 @@ namespace Chapter20 {
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        
         [STAThread]
-        static void Main() {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+        public static void Main() {
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new Form1());
+            var foo = new Exercise3();
+            foo.Run();
         }
     }
 }
